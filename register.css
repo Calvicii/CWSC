@@ -1,0 +1,16 @@
+* {
+    font-family: Gilroy Light;
+}
+
+.registerForm {
+    position: relative;
+    border: 1px solid black;
+    padding: 2.5mm;
+    width: 5cm;
+    left: 50%;
+    margin-left: -2.5cm;
+}
+
+.registerForm input {
+    margin: 1mm;
+}
