@@ -1,3 +1,25 @@
 * {
     font-family: Gilroy Light;
 }
+
+.loginForm {
+    position: relative;
+    border: 1px solid black;
+    padding: 2.5mm;
+    width: 5cm;
+    left: 50%;
+    margin-left: -2.5cm;
+}
+
+.loginForm input {
+    margin: 1mm;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underlines;
+}

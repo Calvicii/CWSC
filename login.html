@@ -3,15 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./login.css">
+        <link rel="stylesheet" href="./header.css">
         <link rel="stylesheet" href="./fonts.css">
         <title>CWSC - Log in</title>
     </head>
     <body>
-        <form id="loginForm">
+        <header>
+            <h1 class="h1CWSC"><!--<img src="./img/">-->CWSC</h1>
+            <a class="login" href="./login.html">Log in</a>
+            <a class="downloads" href="./downloads.html">Downloads</a>
+        </header>
+        <form class="loginForm" id="loginForm">
             <input class="email" name="email" type="email" placeholder="Email" required>
             <input class="password" name="password" type="password" placeholder="Password" required>
             <input class="submit" name="submit" type="submit" value="Log in">
+            <a href="./register.html">Register</a>
         </form>
-        <a>Register</a>
     </body>
 </html>
